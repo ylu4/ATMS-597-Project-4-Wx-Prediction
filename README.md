@@ -15,12 +15,19 @@ Total precipitation accumulation (mm)
 Required packages
 
 NumPy
+
 Xarray
+
 Pandas
+
 Wget
+
 Netcdf4
+
 Pydap
+
 Matplotlib
+
 Scikit Learn
 
 
