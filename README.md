@@ -37,3 +37,8 @@ Scikit Learn
 2. Puja Roy
 3. Yang Lu
 
+# Notes from office hours:
+-precipitation from KCMI data is in mm
+-do not use precipitation from KCMI_daily file
+-units for GFS wind are m/s
+
