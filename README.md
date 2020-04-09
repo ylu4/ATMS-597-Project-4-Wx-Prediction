@@ -48,7 +48,7 @@ These notebooks include creation and evaluation of multiple linear regression (L
 The more complex version of each model includes all available predictors except for DWPC100 (which turned out to contain bad data). In some cases, the observed rainfall variable is not used as a predictor in order to increase the amount of data available for training (rainfall observations were missing on many days, resulting in lost information for other variables). 
 
 ## Predictors:
-As mentioned previously, daily GFS maximum/minimum values are used as predictors. In the higher-complexity setup, 3-hourly GFS output is used. The predictors used in each model are summarized below.
+As mentioned previously, daily GFS maximum/minimum values are used as predictors. In the higher-complexity setup, 3-hourly GFS output is used. These data are aggregated to daily means before they are passed to either model. The predictors used for both models are summarized below.
 
 | Simple model | Higher-complexity model |
 | ------------- | ------------- |
@@ -56,10 +56,12 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 | TMIN | TMIN  |
 | WMAX | WMAX  |
 | RTOT | RTOT (only used in precip prediction)  |
-|  | TMAX |
-|  | TMIN  |
-|  | WMAX  |
-|  | RTOT (only used in precip prediction)  |
+|  | DWPC |
+|  | TMPC |
+|  | WSPD  |
+|  | UWND  |
+|  | VWND  |
+|  | UWND  |
 
 ## Final RMSE values:
 LR: \
