@@ -62,6 +62,24 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 |  | UWND  |
 |  | VWND  |
 |  | UWND  |
+|  | HCLD |
+|  | LCLD  |
+|  | MCLD  |
+|  | PRCP |
+|  | PRES |
+|  | DWPC925 |
+|  | DWPC850  |
+|  | DWPC700 |
+|  | DWPC500 |
+|  | DWPC250  |
+|  | TMPC925 |
+|  | TMPC850  |
+|  | TMPC700 |
+|  | TMPC500 |
+|  | TMPC250  |
+|  | HGHT925 |
+
+
 
 ## Final RMSE values:
 LR: \
