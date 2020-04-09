@@ -40,7 +40,7 @@ Scikit Learn
 # Notebooks:
 Linear regression: ATMS597_GroupE_LR.ipynb\
 Random forest: \
-Data processing: ATMS597_GroupE_Utils.ipynb \ 
+Data processing: ATMS597_GroupE_Utils.ipynb 
 
 # Methodology:
 
@@ -52,8 +52,10 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 
 | Simple model | Higher-complexity model |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| TMAX | TMAX |
+| TMIN | TMIN  |
+| WMAX | WMAX  |
+| RTOT | RTOT (only used in precip prediction)  |
 
 ## Final RMSE values:
 LR: \
