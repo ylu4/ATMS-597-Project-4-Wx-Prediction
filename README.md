@@ -55,7 +55,7 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 | TMAX | TMAX |
 | TMIN | TMIN  |
 | WMAX | WMAX  |
-| RTOT | RTOT (only used in precip prediction)  |
+| RTOT | RTOT |
 |  | DWPC |
 |  | TMPC |
 |  | WSPD  |
@@ -78,6 +78,20 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 |  | TMPC500 |
 |  | TMPC250  |
 |  | HGHT925 |
+|  | HGHT850  |
+|  | HGHT700 |
+|  | HGHT500 |
+|  | HGHT250 |
+|  | UWND925 |
+|  | UWND850  |
+|  | UWND700 |
+|  | UWND500 |
+|  | UWND250  |
+|  | VWND925 |
+|  | VWND850  |
+|  | VWND700 |
+|  | VWND500 |
+|  | VWND250  |
 
 
 
