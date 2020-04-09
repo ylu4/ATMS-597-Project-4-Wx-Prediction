@@ -56,6 +56,10 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 | TMIN | TMIN  |
 | WMAX | WMAX  |
 | RTOT | RTOT (only used in precip prediction)  |
+|  | TMAX |
+|  | TMIN  |
+|  | WMAX  |
+|  | RTOT (only used in precip prediction)  |
 
 ## Final RMSE values:
 LR: \
