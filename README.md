@@ -38,18 +38,22 @@ Scikit Learn
 3. Yang Lu
 
 # Notebooks:
-Linear regression: \
-Random forest:
-Data processing: 
+Linear regression: ATMS597_GroupE_LR.ipynb\
+Random forest: \
+Data processing: ATMS597_GroupE_Utils.ipynb \ 
 
 # Methodology:
 
-These notebooks include creation and evaluation of linear regression (LR) and random forest (RF) models. Simple versions of each model are created and tested followed by a version with greater complexity. The simple version of each model includes only one predictor: daily GFS maximum/minimum values. The simple models exhibit satisfactory performance which is improved once more predictors are added.
+These notebooks include creation and evaluation of multiple linear regression (LR) and random forest (RF) models. Simple versions of each model are created and tested followed by a version with greater complexity. The simple version of each model includes only one predictor: daily GFS maximum/minimum values. The simple models exhibit satisfactory performance which is improved once more predictors are added.
 The more complex version of each model includes all available predictors except for DWPC100 (which turned out to contain bad data). In some cases, the observed rainfall variable is not used as a predictor in order to increase the amount of data available for training (rainfall observations were missing on many days, resulting in lost information for other variables). 
 
 ## Predictors:
-As mentioned previously, daily GFS maximum/minimum values are used as predictors. In the higher-complexity 
+As mentioned previously, daily GFS maximum/minimum values are used as predictors. In the higher-complexity setup, 3-hourly GFS output is used. The predictors used in each model are summarized below.
 
+| Simple model | Higher-complexity model |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Final RMSE values:
 LR: \
