@@ -32,14 +32,14 @@ Scikit Learn
 
 
 # Group Members:
- 
+
 1. Carolina Bieri
 2. Puja Roy
 3. Yang Lu
 
 # Notebooks:
 Linear regression: ATMS597_GroupE_LR.ipynb\
-Random forest: \
+Random forest: GroupE_RandomForestRegression.ipynb\
 Data processing: ATMS597_GroupE_Utils.ipynb 
 
 # Methodology:
@@ -106,4 +106,8 @@ WMAX - 1.58 m/s\
 RTOT - 1.521 mm
 
 ### RF:
+TMAX - 1.93 deg C\
+TMIN - 1.60 deg C\
+WMAX - 1.46 m/s\
+RTOT - 1.50 mm
 
