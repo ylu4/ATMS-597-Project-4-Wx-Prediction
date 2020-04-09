@@ -37,7 +37,20 @@ Scikit Learn
 2. Puja Roy
 3. Yang Lu
 
-# Methodology
+# Notebooks:
+Linear regression: 
+Random forest:
+Data processing: 
 
-Linear regression (LR) and random forest (RF) models were developed to complete this assignment. "Simple" versions of each model were tested first, followed by a version with greater complexity. 
+# Methodology:
+
+These notebooks include creation and evaluation of linear regression (LR) and random forest (RF) models. Simple versions of each model are created and tested followed by a version with greater complexity. The simple version of each model includes only one predictor: daily GFS maximum/minimum values. The simple models exhibit satisfactory performance which is improved once more predictors are added.
+The more complex version of each model includes all available predictors except for DWPC100 (which turned out to contain bad data). In some cases, the observed rainfall variable is not used as a predictor in order to increase the amount of data available for training (rainfall observations were missing on many days, resulting in lost information for other variables). 
+
+## Predictors:
+
+
+
+## Final RMSE values:
+
 
