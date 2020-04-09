@@ -1,7 +1,7 @@
-ATMS-597-Project-4-Wx-Prediction
+#ATMS-597-Project-4-Wx-Prediction
+
 ATMS 597 SP 2020
 Project 4 - Wx Prediction using regression for prediction (version 1.0)
-Due Friday, March 26, at midnight
 You will work in groups of 3 to complete this assignment, which are assigned on Learn@Illinois. Students who are not taking the course for credit may join to form their own groups, however their assignment will not be graded.
 
 Tasks: (1) Use multiple linear regression to predict a WxChallenge-like forecast using past Global Forecast System (GFS) forecast data. (2) Repeat (1) with random forest regression.
