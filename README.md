@@ -37,3 +37,7 @@ Scikit Learn
 2. Puja Roy
 3. Yang Lu
 
+# Methodology
+
+Linear regression (LR) and random forest (RF) models were developed to complete this assignment. "Simple" versions of each model were tested first, followed by a version with greater complexity. 
+
