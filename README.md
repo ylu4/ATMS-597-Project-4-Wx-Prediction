@@ -38,7 +38,7 @@ Scikit Learn
 3. Yang Lu
 
 # Notebooks:
-Linear regression: 
+Linear regression: \n
 Random forest:
 Data processing: 
 
@@ -48,9 +48,9 @@ These notebooks include creation and evaluation of linear regression (LR) and ra
 The more complex version of each model includes all available predictors except for DWPC100 (which turned out to contain bad data). In some cases, the observed rainfall variable is not used as a predictor in order to increase the amount of data available for training (rainfall observations were missing on many days, resulting in lost information for other variables). 
 
 ## Predictors:
-
+As mentioned previously, daily GFS maximum/minimum values are used as predictors. In the higher-complexity 
 
 
 ## Final RMSE values:
-
+LR
 
