@@ -38,7 +38,7 @@ Scikit Learn
 3. Yang Lu
 
 # Notebooks:
-Linear regression: \n
+Linear regression: \
 Random forest:
 Data processing: 
 
@@ -52,5 +52,9 @@ As mentioned previously, daily GFS maximum/minimum values are used as predictors
 
 
 ## Final RMSE values:
-LR
+LR: \
+TMAX - 1.91 deg C\
+TMIN - 1.73 deg C\
+WMAX - 1.58 m/s\
+RTOT - 1.521 mm
 
